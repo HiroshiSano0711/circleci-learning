@@ -1,0 +1,6 @@
+jobs:
+  build:
+    docker:
+      - image: cimg/ruby:2.7.1-node
+    steps:
+      - run: ruby --version
